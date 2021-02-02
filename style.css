@@ -1,0 +1,29 @@
+.custom-select-container,
+.custom-select-options,
+.custom-select-option,
+.custom-select-value {
+  box-sizing: border-box;
+}
+
+.custom-select-value{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    border: 1px solid black;
+    cursor: pointer;
+    user-select: none;
+    padding: 0.25rem 0.5rem;
+
+
+}
+
+.custom-select-value::after{
+
+    content:'';
+    display: inline-block;
+    border: 3px solid transparent;
+    border-top-color: black;
+
+
+}
